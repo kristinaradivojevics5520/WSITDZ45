@@ -1,0 +1,102 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background: #f4ae55;
+    height: 80px;
+    width: 100%;
+}
+
+nav h1{
+    display: inline-block;
+    color: black;
+    font-style: italic;
+}
+
+nav img{
+    height: 80px;
+    width: 150px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+    
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px ;
+
+}
+
+.active,a:hover
+{   
+    background: #FFE4C4;
+    transition: all 2s;
+}
+
+div.main{
+    width: 100%;
+}
+
+div.register{
+    width: 400px;
+    height: 100px;
+    margin: 50px;
+    padding: 20px;
+}
+
+p{
+    font-style: bold;
+    padding: 50px;
+    font-size: 20px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+div.proizvodi{
+    width: 100%;
+    height: 400px;
+    padding: 100px;
+    margin: 50px;
+}
+
+footer{
+    display: inline-block;
+    background: #f4ae55;
+    width: 100%;
+    height: 80px;
+}
